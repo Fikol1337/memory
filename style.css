@@ -1,0 +1,15 @@
+.memory-card {
+    width: 100px;
+    height: 100px;
+    background-color: #f0f0f0;
+    border: 2px solid #ccc;
+    display: inline-block;
+    margin: 10px;
+    font-size: 0;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.memory-card.flip {
+    transform: rotateY(180deg);
+}
